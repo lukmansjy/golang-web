@@ -1,0 +1,10 @@
+{{define "layout"}}
+{{template "header" .}}
+<h1>Hello {{.Name}}</h1>
+{{template "test"}}
+{{template "footer"}}
+{{end}}
+
+{{define "test"}}
+<h1>Test define name di satu file</h1>
+{{end}}
